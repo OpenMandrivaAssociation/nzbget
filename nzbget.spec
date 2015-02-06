@@ -5,7 +5,7 @@ Name: nzbget
 Version: 11.0
 %if "%{beta}" == ""
 %if "%{scmrev}" == ""
-Release: 1
+Release: 2
 Source: http://sourceforge.net/projects/nzbget/files/nzbget-%{version}.tar.gz
 %else
 Release: 0.%{scmrev}.1
