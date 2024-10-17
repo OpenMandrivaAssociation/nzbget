@@ -21,7 +21,7 @@ Source: %{name}-%{scmrev}.tar.xz
 %endif
 %endif
 Summary: NZB file downloader
-URL: http://nzbget.sf.net/
+URL: https://nzbget.sf.net/
 License: GPL
 Group: Networking/File transfer
 BuildRequires: %{_lib}par2-devel
