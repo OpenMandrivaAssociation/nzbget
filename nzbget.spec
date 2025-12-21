@@ -24,6 +24,11 @@ Summary: NZB file downloader
 URL: https://nzbget.sf.net/
 License: GPL
 Group: Networking/File transfer
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires: %{_lib}par2-devel
 BuildRequires: pkgconfig(sigc++-2.0)
 BuildRequires: pkgconfig(gnutls)
